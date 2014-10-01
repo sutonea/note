@@ -47,3 +47,42 @@ Structの場合 `ret_obj.status`
 ##### このように書いた理由
 
 Structをわざわざ定義したくなかったから。
+
+
+- - -
+
+####戻り値はステータスのみを返し、その他の情報はオブジェクトに持たせる
+
+##### コード
+
+    class MyClass
+      def initialize
+        @result = nil
+      end
+
+      def my_proc
+        # 何らかの処理
+        # ここで@resultに処理結果を代入する 
+        # また、status にステータスコードを代入する
+        return status
+      end
+
+      def result
+        @result
+      end
+    end
+    
+##### このように書いた理由
+
+関数の呼び出し元で、下記のようなコードを書きたかったから。
+
+    obj = MyClass.new
+    status = obj.my_proc
+
+    case
+    when :succeed
+      output = obj.result
+    else
+      output = status
+    end
+
