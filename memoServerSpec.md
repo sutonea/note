@@ -1,5 +1,7 @@
 # serverspec の導入
 
+参考: http://serverspec.org/
+
 ## 前提条件
 
 rbenv 導入済み
