@@ -38,3 +38,14 @@ bundle
 Bundle complete! 1 Gemfile dependency, 13 gems now installed.
 Use `bundle show [gemname]` to see where a bundled gem is installed.
 ```
+
+
+## serverspec を実行
+
+`serverspec-init` では command not found となってしまった
+
+```
+rbenv exec serverspec-init
+```
+
+上記コマンド実行後、ウィザードは公式サイト通りに実行
