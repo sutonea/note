@@ -7,10 +7,14 @@ My note.
 
 ## 優先度高
 
-Vue.js の勉強
+コンテナ技術
+TypeScript
 
 ## 優先度未定
 
-Vue.js を Dart2 を使って書いてみる
+React
+Angular
 
-情報処理のための汎用的なコンポーネント作成
+## 優先度低
+
+特になし
