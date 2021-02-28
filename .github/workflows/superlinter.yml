@@ -9,11 +9,11 @@ jobs:
 
     steps:
       - name: Checkout code
-        uses: actions/checkout@2
+        uses: actions/checkout@master
 
 
       - name: Run Super-Liner
-        uses: github/super-linter@3
+        uses: github/super-linter@v3
         env:
           DEFAULT_BRANCH: master
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
