@@ -1,6 +1,6 @@
 # serverspec の導入
 
-参考: http://serverspec.org/
+参考: [serverspec.org](http://serverspec.org/)
 
 ## 前提条件
 
