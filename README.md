@@ -8,6 +8,7 @@ My note.
 ## 優先度高
 
 コンテナ技術
+Github Action
 TypeScript
 
 ## 優先度未定
