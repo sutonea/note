@@ -10,7 +10,7 @@ rbenv 導入済み
 
 ## 作業の記録
 
-```
+```bash
 cd ~/work
 mkdir ruby_system_gem
 cd ruby_system_gem/
@@ -20,7 +20,8 @@ echo "gem 'serverspec'" >> Gemfile
 ```
 
 メッセージが表示された。systemのrubyにはbundlerが入っていなかった
-```
+
+```bash
 rbenv: bundle: command not found
 
 The `bundle' command exists in these Ruby versions:
@@ -28,13 +29,14 @@ The `bundle' command exists in these Ruby versions:
   2.2.1
 ```
 
-```
+```bash
 rbenv shell 2.2.1
 bundle
 ```
 
 インストール完了
-```
+
+```bash
 Bundle complete! 1 Gemfile dependency, 13 gems now installed.
 Use `bundle show [gemname]` to see where a bundled gem is installed.
 ```
@@ -44,7 +46,7 @@ Use `bundle show [gemname]` to see where a bundled gem is installed.
 
 `serverspec-init` では command not found となってしまった
 
-```
+```bash
 rbenv exec serverspec-init
 ```
 
